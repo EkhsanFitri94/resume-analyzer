@@ -35,18 +35,25 @@ Enter an OpenAI API key in the app for GPT-enhanced analysis:
 
 The app works fully without an API key — using TF-IDF + skill matching.
 
-## 🎯 How It Works
+## 📸 Demo
 
-1. **Upload resume** (PDF/DOCX/TXT) or paste text
-2. **Paste job description**
-3. **Click Analyze** → instant results:
+```
+streamlit run app.py
+```
 
-| Tab | Content |
-|---|---|
-| 📊 **Skill Analysis** | Matching vs missing skills, score breakdown |
-| 💡 **Suggestions** | Concrete improvement tips, ATS keywords |
-| 🤖 **AI Insights** | GPT-powered personalized coaching |
-| 📋 **Details** | Raw analysis data (JSON) |
+**How it works:**
+1. 📄 Upload resume (PDF/DOCX/TXT) or paste text
+2. 📋 Paste job description
+3. 🔍 Click "Analyze Match"
+
+**Result shows:**
+- 🎯 Match score (circle visualization)
+- ✅ Matching skills vs ❌ Missing skills
+- 🤖 ATS keyword scanner
+- 💡 Concrete improvement suggestions
+- 🧠 Optional AI coaching (with OpenAI key)
+
+> 💡 Try it with your own resume against a real job posting!
 
 ## 🛠️ Tech Stack
 
